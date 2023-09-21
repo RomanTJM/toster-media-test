@@ -1,0 +1,365 @@
+@font-face {
+    src: url("./fonts/gothampro_medium.ttf");
+    font-family: "Gothampro";
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    background-color: #F19D2F;
+    margin: 0;
+}
+
+.header-text {
+    font-family: Gothampro;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    color: #2C2B31;
+    margin: 0;
+    padding: 0;
+}
+
+.header-text::after,
+.header-text::before,
+.delivery-subtext::after {
+    content: '\01F1FF \01F1E6';
+}
+
+main {
+    background-color: #F0F0F0;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    background-color: #FFD1AC;
+}
+
+.main-banner {
+    height: 281px;
+    background-image: url("./images/banner.png");
+    background-repeat: no-repeat;
+    padding: 0 13px;
+}
+
+.main-timer-price {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.timer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F19D2F;
+    width: 103px;
+    padding: 9px 0;
+    border-radius: 7px;
+    position: absolute;
+    top: 209px;
+}
+
+.timer-text {
+    font-family: Gothampro;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.timer-item {
+    font-family: Gothampro;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.main-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #37D997;
+    width: 116px;
+    padding: 6px 0;
+    border-radius: 6px;
+    position: absolute;
+    top: 209px;
+    right: 0;
+}
+
+.main-price-new {
+    font-family: Gothampro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.main-price-old {
+    font-family: Gothampro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    position: relative;
+    text-decoration: none;
+}
+
+del:before {
+    content: "";
+    border-bottom: 3px solid #E27500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42%;
+}
+
+.main-slider {
+    background-color: #F0F0F0;
+    padding: 11px 16px 0 16px;
+    margin: 0;
+}
+
+.main-grade {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.main-grade-text {
+    font-family: Gothampro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    color: #2C2B31;
+    margin: 0;
+    padding: 0;
+}
+
+.main-slider-logo {
+    width: 72px;
+    height: 17px;
+}
+
+.main-grade-best {
+    font-family: Gothampro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    color: #37D997;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid;
+}
+
+.main-slider-text {
+    font-family: Gothampro;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #2C2B31;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.main-slider-img {
+    width: 100%;
+    height: 232px;
+    border-radius: 20px;
+}
+
+.slider-block-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.slider-btn {
+    width: 80px;
+    height: 66px;
+    border-radius: 10px;
+}
+
+.active {
+    opacity: 40%;
+}
+
+.main-slider-delivery {
+    margin-bottom: 12px;
+}
+
+.delivery-text {
+    font-family: Gothampro;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.delivery-subtext {
+    font-family: Gothampro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.main-slider-stars {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stars-img {
+    width: 14px;
+    height: 13px;
+    padding-right: 4px;
+}
+
+.stars-text {
+    font-family: Gothampro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #2C2B31;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.drop-down-block {
+    display: grid;
+    column-gap: 16px;
+    grid-template-columns: 48% 48%;
+    margin-bottom: 20px;
+}
+
+.drop-down-text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4px;
+}
+
+.drop-down-color-text {
+    font-family: Gothampro;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    color: #2C2B31;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -o-appearance: none;
+    font-family: Gothampro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2C2B31;
+    text-transform: uppercase;
+    padding: 15px 0;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    height: max-content;
+}
+
+select:not([multiple]) {
+    background-repeat: no-repeat;
+    background-position: calc(100% - 9px);
+    background-position-y: center;
+    background-image: url("./icons/arrow.svg");
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+option {
+    font-family: Gothampro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2C2B31;
+    text-transform: uppercase;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.btn-block {
+    padding-bottom: 41px;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #37D997;
+    padding: 11px 0;
+    color: #FFFFFF;
+    font-family: Gothampro;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    cursor: pointer;
+    margin-bottom: 41px;
+}
